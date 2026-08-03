@@ -1,0 +1,759 @@
+# AI/ML Project Interview Roadmap
+
+> Target Role: AI/ML Engineer / ML Engineer / Data Scientist
+> Experience: Fresher → 2+ Years
+> Ordered by Interview Importance
+
+---
+
+# ⭐⭐⭐⭐⭐ TIER 1 — MUST KNOW (Asked for Every Project)
+
+These topics are expected for **every AI/ML project**, regardless of whether it's a MiniGPT, RAG, or AI Agent.
+
+---
+
+## 1. Problem Statement
+
+### Learn
+
+- What problem are you solving?
+- Why is it important?
+- Who are the users?
+- Existing solutions
+- Why your solution is better
+
+### Interview Questions
+
+- Explain your project.
+- Why did you build it?
+- What business problem does it solve?
+
+---
+
+## 2. Project Architecture
+
+### Learn
+
+- High-Level Architecture
+- Components
+- Data Flow
+- User Flow
+
+### Interview Questions
+
+- Explain your architecture.
+- Walk me through the system.
+
+---
+
+## 3. End-to-End Pipeline
+
+### Learn
+
+Every step from
+
+User Input
+
+↓
+
+Processing
+
+↓
+
+Model
+
+↓
+
+Output
+
+↓
+
+Response
+
+### Interview Questions
+
+- Explain the complete pipeline.
+- Trace a request from start to finish.
+
+---
+
+## 4. Technology Stack
+
+### Learn
+
+- Why Python?
+- Why FastAPI?
+- Why Streamlit?
+- Why LangGraph?
+- Why TensorFlow?
+- Why PyTorch?
+
+### Interview Questions
+
+- Why did you choose this technology?
+- What alternatives did you consider?
+
+---
+
+## 5. Dataset
+
+### Learn
+
+- Dataset Source
+- Dataset Size
+- Preprocessing
+- Cleaning
+- Splitting
+
+### Interview Questions
+
+- Which dataset did you use?
+- How did you preprocess it?
+
+---
+
+## 6. Model Selection
+
+### Learn
+
+- Why this model?
+- Why not another model?
+- Trade-offs
+
+### Interview Questions
+
+- Why did you choose this model?
+
+---
+
+## 7. Training Pipeline
+
+### Learn
+
+- Data Loading
+- Batch Creation
+- Forward Pass
+- Loss
+- Backpropagation
+- Optimizer
+- Evaluation
+
+### Interview Questions
+
+- Explain training.
+
+---
+
+## 8. Inference Pipeline
+
+### Learn
+
+- Model Loading
+- Prediction
+- Post Processing
+
+### Interview Questions
+
+- What happens after deployment?
+
+---
+
+## 9. Evaluation
+
+### Learn
+
+- Metrics
+- Validation
+- Qualitative Evaluation
+
+### Interview Questions
+
+- How did you evaluate your model?
+
+---
+
+## 10. Challenges
+
+### Learn
+
+- Technical Challenges
+- Dataset Challenges
+- Performance Issues
+
+### Interview Questions
+
+- Biggest challenge?
+- How did you solve it?
+
+---
+
+## 11. Limitations
+
+### Learn
+
+- Current Limitations
+- Failure Cases
+
+### Interview Questions
+
+- Where does your project fail?
+
+---
+
+## 12. Future Improvements
+
+### Learn
+
+- Scalability
+- Better Models
+- More Features
+
+### Interview Questions
+
+- What would you improve?
+
+---
+
+# ⭐⭐⭐⭐ TIER 2 — VERY IMPORTANT (Project-Specific Deep Dive)
+
+---
+
+## 13. Prompt Engineering
+
+Topics
+
+- System Prompt
+- User Prompt
+- Few-shot
+- Zero-shot
+- Structured Prompt
+
+Interview
+
+- Show your prompt.
+- How do you reduce hallucinations?
+
+---
+
+## 14. Retrieval-Augmented Generation (RAG)
+
+Topics
+
+- Chunking
+- Embeddings
+- Retrieval
+- Grounding
+
+Interview
+
+- Why RAG?
+- Why not Fine-tuning?
+
+---
+
+## 15. Embeddings
+
+Topics
+
+- Embedding Models
+- Vector Representation
+- Similarity Search
+
+Interview
+
+- What are embeddings?
+- Why this embedding model?
+
+---
+
+## 16. Vector Database
+
+Topics
+
+- FAISS
+- ChromaDB
+
+Interview
+
+- Why Vector DB?
+- Why not SQL?
+
+---
+
+## 17. Chunking
+
+Topics
+
+- Chunk Size
+- Overlap
+- Recursive Splitting
+
+Interview
+
+- Why 500?
+- Why overlap?
+
+---
+
+## 18. Retrieval
+
+Topics
+
+- Cosine Similarity
+- Top-k
+- Dense Retrieval
+- BM25
+
+Interview
+
+- Why cosine?
+- Why top-k=5?
+
+---
+
+## 19. LLM Integration
+
+Topics
+
+- API Calls
+- Prompt Construction
+- Response Parsing
+
+Interview
+
+- How do you call the LLM?
+
+---
+
+## 20. Multi-Agent Systems
+
+Topics
+
+- Agent Communication
+- Task Decomposition
+- Agent Collaboration
+
+Interview
+
+- Why multiple agents?
+
+---
+
+## 21. LangGraph
+
+Topics
+
+- Nodes
+- Edges
+- Workflow
+- Conditional Routing
+- Parallel Execution
+- State
+
+Interview
+
+- Why LangGraph?
+- Why not Sequential Calls?
+
+---
+
+## 22. State Management
+
+Topics
+
+- Shared State
+- AgentState
+- Context Passing
+
+Interview
+
+- How do agents share information?
+
+---
+
+## 23. Structured Outputs
+
+Topics
+
+- JSON
+- Pydantic
+- Validation
+
+Interview
+
+- Why structured output?
+
+---
+
+## 24. Provider Pattern
+
+Topics
+
+- Interface
+- Swappable Providers
+- Strategy Pattern
+
+Interview
+
+- Why provider abstraction?
+
+---
+
+## 25. Error Handling
+
+Topics
+
+- API Failure
+- Retry
+- Timeout
+- Validation
+
+Interview
+
+- What happens if an API fails?
+
+---
+
+# ⭐⭐⭐ TIER 3 — IMPORTANT (Production Concepts)
+
+---
+
+## 26. Deployment
+
+Topics
+
+- Docker
+- FastAPI
+- Streamlit
+- Render
+- Vercel
+
+Interview
+
+- How did you deploy it?
+
+---
+
+## 27. Scalability
+
+Topics
+
+- Concurrent Users
+- Load Handling
+- Async Processing
+
+Interview
+
+- What breaks with 100 users?
+
+---
+
+## 28. Security
+
+Topics
+
+- API Keys
+- Environment Variables
+- Authentication
+
+Interview
+
+- How do you secure the application?
+
+---
+
+## 29. Performance Optimization
+
+Topics
+
+- Caching
+- Batch Processing
+- Model Reuse
+- Lazy Loading
+
+Interview
+
+- How did you improve performance?
+
+---
+
+## 30. Logging & Monitoring
+
+Topics
+
+- Logs
+- Metrics
+- Error Tracking
+
+Interview
+
+- How do you debug production issues?
+
+---
+
+## 31. Testing
+
+Topics
+
+- Unit Testing
+- Integration Testing
+- API Testing
+
+Interview
+
+- How did you test your project?
+
+---
+
+## 32. Version Control
+
+Topics
+
+- Git
+- GitHub
+- Branching
+
+Interview
+
+- How did you manage your code?
+
+---
+
+## 33. API Design
+
+Topics
+
+- REST APIs
+- Endpoints
+- Request/Response Models
+
+Interview
+
+- Explain your API.
+
+---
+
+## 34. Database Design
+
+Topics
+
+- SQL
+- NoSQL
+- Vector DB
+
+Interview
+
+- Why this database?
+
+---
+
+## 35. Configuration Management
+
+Topics
+
+- Environment Variables
+- Config Files
+- Secrets
+
+Interview
+
+- How do you manage configuration?
+
+---
+
+# ⭐⭐ TIER 4 — SOMETIMES ASKED
+
+---
+
+## 36. OCR Integration
+
+---
+
+## 37. Queue Systems
+
+---
+
+## 38. Background Jobs
+
+---
+
+## 39. Async Processing
+
+---
+
+## 40. Rate Limiting
+
+---
+
+## 41. Cost Optimization
+
+---
+
+## 42. Cloud Storage
+
+---
+
+## 43. CI/CD
+
+---
+
+## 44. Container Orchestration
+
+---
+
+## 45. Microservices
+
+---
+
+# ⭐ TIER 5 — LOW PRIORITY FOR FRESHERS
+
+---
+
+## 46. Kubernetes
+
+---
+
+## 47. Distributed Systems
+
+---
+
+## 48. Kafka / RabbitMQ
+
+---
+
+## 49. Prometheus / Grafana
+
+---
+
+## 50. Multi-Region Deployment
+
+---
+
+# 📌 Project-Specific Deep Dive
+
+## MiniGPT
+
+### Must Master
+
+- Transformer Architecture
+- Decoder-only GPT
+- Tokenization
+- Embeddings
+- Positional Encoding
+- Multi-Head Attention
+- Causal Mask
+- Feed Forward Network
+- Training Loop
+- Optimizer
+- Loss Function
+- Hyperparameters
+- Text Generation
+- Evaluation
+- Failure Cases
+- Future Improvements
+
+---
+
+## Research Paper RAG
+
+### Must Master
+
+- Problem Statement
+- Why RAG
+- Chunking Strategy
+- Embedding Model
+- FAISS / ChromaDB
+- Query Embedding
+- Cosine Similarity
+- Top-k Retrieval
+- Prompt Engineering
+- Hallucination Prevention
+- Source Grounding
+- End-to-End Pipeline
+- Error Handling
+- Deployment
+- Future Improvements
+
+---
+
+## AI Marketing Agent
+
+### Must Master
+
+- Problem Statement
+- Multi-Agent Architecture
+- LangGraph Workflow
+- AgentState
+- Prompt Engineering
+- Campaign Planner
+- Script Generator
+- Scene Planner
+- Image Prompt Generator
+- Subtitle Generator
+- Structured Outputs
+- Provider Pattern
+- Async Workflow
+- Deployment
+- Challenges
+- Future Improvements
+
+---
+
+# ❌ NOT IMPORTANT FOR FRESHERS
+
+Usually Asked After 2–5 Years
+
+- Distributed Agent Systems
+- Multi-Region Deployments
+- Kubernetes
+- Auto Scaling
+- Service Mesh
+- Distributed Caching
+- Event Streaming (Kafka)
+- Advanced Observability
+- Zero-Downtime Deployments
+- Blue-Green / Canary Releases
+
+---
+
+# Final Recommendation
+
+## Master These First
+
+### Tier 1
+- Problem Statement
+- Architecture
+- End-to-End Pipeline
+- Tech Stack
+- Dataset
+- Model Selection
+- Training
+- Inference
+- Evaluation
+- Challenges
+- Limitations
+- Future Improvements
+
+### Tier 2
+- Prompt Engineering
+- RAG
+- Embeddings
+- Vector Databases
+- Chunking
+- Retrieval
+- LangGraph
+- State Management
+- Structured Outputs
+- Provider Pattern
+- Error Handling
+
+### Tier 3
+- Deployment
+- Scalability
+- Security
+- Performance
+- Logging
+- Testing
+- API Design
+
+For **AI/ML fresher interviews**, interviewers spend a significant portion of the discussion on your projects. You should be able to explain each project **without looking at the code**, justify every design decision, discuss trade-offs, identify limitations, and propose future improvements.

@@ -1,0 +1,749 @@
+# Deep Learning Interview Roadmap (AI/ML Engineer)
+
+> Target Role: AI/ML Engineer / ML Engineer
+> Experience: Fresher → 2+ Years
+> Ordered by Interview Importance
+
+---
+
+# ⭐⭐⭐⭐⭐ TIER 1 — MUST KNOW (Asked in Almost Every Interview)
+
+---
+
+## 1. Neural Networks Fundamentals
+
+### Learn
+
+- Artificial Neuron
+- Perceptron
+- Input Layer
+- Hidden Layer
+- Output Layer
+- Weights
+- Bias
+- Activation Function
+
+### Interview Questions
+
+- What is a Neural Network?
+- Why do we need hidden layers?
+- What are weights and bias?
+
+---
+
+## 2. Forward Propagation
+
+### Topics
+
+- Weighted Sum
+- Activation
+- Layer-by-Layer Computation
+
+### Interview Questions
+
+- What happens during forward propagation?
+- Why is it called forward propagation?
+
+---
+
+## 3. Backpropagation
+
+### Topics
+
+- Chain Rule
+- Gradient Computation
+- Weight Updates
+
+### Interview Questions
+
+- How does backpropagation work?
+- Why is the chain rule used?
+
+---
+
+## 4. Gradient Descent
+
+### Topics
+
+- Batch Gradient Descent
+- SGD
+- Mini-Batch Gradient Descent
+
+### Interview Questions
+
+- Difference between Batch, SGD and Mini-Batch.
+- Which is commonly used?
+
+---
+
+## 5. Loss Functions
+
+### Topics
+
+- Mean Squared Error (MSE)
+- Binary Cross Entropy
+- Categorical Cross Entropy
+
+### Interview Questions
+
+- When do you use MSE?
+- Why Cross Entropy for classification?
+- Why Cross Entropy in language models?
+
+---
+
+## 6. Activation Functions
+
+### Topics
+
+- Sigmoid
+- Tanh
+- ReLU
+- Leaky ReLU
+- Softmax
+- GELU
+
+### Interview Questions
+
+- Why ReLU?
+- Problems with Sigmoid.
+- Why Softmax in the output layer?
+
+---
+
+## 7. Optimizers
+
+### Topics
+
+- SGD
+- Momentum
+- RMSProp
+- Adam
+- AdamW
+
+### Interview Questions
+
+- Why Adam?
+- Adam vs SGD
+- Why AdamW?
+
+---
+
+## 8. Learning Rate
+
+### Topics
+
+- Learning Rate
+- Warm-up
+- Step Decay
+- Cosine Annealing
+- ReduceLROnPlateau
+
+### Interview Questions
+
+- Why use a scheduler?
+- Why warm-up in Transformers?
+
+---
+
+## 9. Regularization
+
+### Topics
+
+- Dropout
+- L1
+- L2
+- Early Stopping
+
+### Interview Questions
+
+- How does Dropout work?
+- Why does Dropout reduce overfitting?
+
+---
+
+## 10. Batch Normalization
+
+### Topics
+
+- Internal Covariate Shift
+- Batch Statistics
+
+### Interview Questions
+
+- Why BatchNorm?
+- Benefits of BatchNorm
+
+---
+
+## 11. Layer Normalization
+
+### Topics
+
+- Layer Statistics
+- Transformer Usage
+
+### Interview Questions
+
+- BatchNorm vs LayerNorm
+- Why Transformers use LayerNorm?
+
+---
+
+## 12. Weight Initialization
+
+### Topics
+
+- Xavier Initialization
+- He Initialization
+
+### Interview Questions
+
+- Why initialize weights carefully?
+- Xavier vs He
+
+---
+
+## 13. Vanishing & Exploding Gradients
+
+### Topics
+
+- Causes
+- Solutions
+
+### Interview Questions
+
+- Why do gradients vanish?
+- How do you prevent exploding gradients?
+
+---
+
+## 14. Gradient Clipping
+
+### Topics
+
+- Gradient Norm
+- Clipping Threshold
+
+### Interview Questions
+
+- Why clip gradients?
+
+---
+
+# ⭐⭐⭐⭐ TIER 2 — VERY IMPORTANT
+
+---
+
+## 15. CNN Fundamentals
+
+### Topics
+
+- Convolution Layer
+- Kernel
+- Filter
+- Feature Map
+
+### Interview Questions
+
+- Why CNN?
+- What does convolution learn?
+
+---
+
+## 16. Padding
+
+### Topics
+
+- Same Padding
+- Valid Padding
+
+### Interview Questions
+
+- Why Padding?
+
+---
+
+## 17. Stride
+
+### Topics
+
+- Step Size
+
+### Interview Questions
+
+- Effect of Stride
+
+---
+
+## 18. Pooling
+
+### Topics
+
+- Max Pooling
+- Average Pooling
+- Global Average Pooling
+
+### Interview Questions
+
+- Why Pooling?
+- Max vs Average Pooling
+
+---
+
+## 19. Fully Connected Layer
+
+### Topics
+
+- Flatten
+- Classification Head
+
+---
+
+## 20. CNN Architectures
+
+### Topics
+
+- LeNet
+- AlexNet
+- VGG
+- ResNet
+- EfficientNet
+
+### Interview Questions
+
+- Why ResNet?
+- What is a Residual Connection?
+
+---
+
+## 21. RNN
+
+### Topics
+
+- Hidden State
+- Sequential Processing
+
+### Interview Questions
+
+- Why RNN?
+
+---
+
+## 22. LSTM
+
+### Topics
+
+- Forget Gate
+- Input Gate
+- Output Gate
+- Cell State
+
+### Interview Questions
+
+- Why LSTM over RNN?
+
+---
+
+## 23. GRU
+
+### Topics
+
+- Update Gate
+- Reset Gate
+
+### Interview Questions
+
+- GRU vs LSTM
+
+---
+
+## 24. Sequence-to-Sequence Models
+
+### Topics
+
+- Encoder
+- Decoder
+
+---
+
+# ⭐⭐⭐⭐ TIER 2 — TRANSFORMERS & LLMs (Highest Priority for AI Roles)
+
+---
+
+## 25. Attention Mechanism
+
+### Topics
+
+- Query
+- Key
+- Value
+- Attention Score
+
+### Interview Questions
+
+- What is Attention?
+- Why better than RNN?
+
+---
+
+## 26. Self Attention
+
+### Topics
+
+- Q
+- K
+- V
+
+### Interview Questions
+
+- Explain Self-Attention
+
+---
+
+## 27. Scaled Dot Product Attention
+
+### Topics
+
+- Scaling Factor
+- Softmax
+
+---
+
+## 28. Multi-Head Attention
+
+### Topics
+
+- Multiple Heads
+- Concatenation
+- Linear Projection
+
+### Interview Questions
+
+- Why Multiple Heads?
+- How are heads combined?
+
+---
+
+## 29. Positional Encoding
+
+### Topics
+
+- Sinusoidal Encoding
+- Learned Positional Embeddings
+
+### Interview Questions
+
+- Why Positional Encoding?
+- What happens without it?
+
+---
+
+## 30. Transformer Architecture
+
+### Topics
+
+- Encoder
+- Decoder
+- Residual Connection
+- LayerNorm
+- FFN
+
+### Interview Questions
+
+- Explain Transformer Architecture.
+
+---
+
+## 31. Decoder-only Transformers
+
+### Topics
+
+- GPT
+- Causal Mask
+
+### Interview Questions
+
+- Why causal masking?
+- Training vs Inference
+
+---
+
+## 32. Feed Forward Network (FFN)
+
+### Topics
+
+- Two Linear Layers
+- Activation
+
+---
+
+## 33. Embeddings
+
+### Topics
+
+- Token Embeddings
+- Word Embeddings
+
+### Interview Questions
+
+- What are embeddings?
+
+---
+
+## 34. Tokenization
+
+### Topics
+
+- Character
+- Word
+- BPE
+- SentencePiece
+
+### Interview Questions
+
+- Character vs BPE
+
+---
+
+## 35. Text Generation
+
+### Topics
+
+- Greedy Search
+- Beam Search
+- Top-k Sampling
+- Top-p Sampling
+- Temperature
+
+### Interview Questions
+
+- Temperature
+- Top-k vs Top-p
+
+---
+
+# ⭐⭐⭐ TIER 3 — IMPORTANT FOR PROJECTS
+
+---
+
+## 36. Transfer Learning
+
+---
+
+## 37. Fine-tuning
+
+---
+
+## 38. PEFT
+
+Topics
+
+- LoRA
+- QLoRA
+
+---
+
+## 39. RAG
+
+Topics
+
+- Retrieval
+- Embeddings
+- Chunking
+- Vector Database
+
+---
+
+## 40. Vector Databases
+
+Topics
+
+- FAISS
+- ChromaDB
+
+---
+
+## 41. Prompt Engineering
+
+Topics
+
+- Zero-shot
+- Few-shot
+- Chain-of-Thought
+
+---
+
+## 42. Evaluation Metrics
+
+Topics
+
+- Accuracy
+- BLEU
+- ROUGE
+- Perplexity
+
+---
+
+## 43. Model Checkpointing
+
+---
+
+## 44. Mixed Precision Training
+
+---
+
+## 45. Quantization
+
+---
+
+# ⭐⭐ TIER 4 — SOMETIMES ASKED
+
+---
+
+## 46. Diffusion Models
+
+---
+
+## 47. GANs
+
+---
+
+## 48. Autoencoders
+
+---
+
+## 49. Variational Autoencoders (VAE)
+
+---
+
+## 50. Graph Neural Networks (GNN)
+
+---
+
+# ⭐ TIER 5 — LOW PRIORITY FOR FRESHERS
+
+---
+
+## 51. Distributed Training
+
+---
+
+## 52. DeepSpeed
+
+---
+
+## 53. Tensor Parallelism
+
+---
+
+## 54. Pipeline Parallelism
+
+---
+
+## 55. Flash Attention
+
+---
+
+## 56. RLHF
+
+---
+
+## 57. DPO
+
+---
+
+## 58. MoE (Mixture of Experts)
+
+---
+
+## 59. Model Serving
+
+Topics
+
+- Triton
+- vLLM
+- TensorRT
+
+---
+
+## 60. LLM Infrastructure
+
+Topics
+
+- KV Cache Optimization
+- Continuous Batching
+- Speculative Decoding
+
+---
+
+# ❌ NOT IMPORTANT FOR FRESHERS
+
+Usually Asked After 2–5 Years
+
+- Distributed GPU Training
+- CUDA Kernel Optimization
+- Tensor Parallelism
+- Pipeline Parallelism
+- DeepSpeed Internals
+- FlashAttention Internals
+- RLHF Implementation
+- DPO Training
+- MoE Routing Algorithms
+- Large-scale LLM Serving
+- GPU Memory Optimization
+- NCCL Communication
+- CUDA Programming
+- Production Inference Optimization
+
+---
+
+# Final Recommendation
+
+## Master These First
+
+### Tier 1 (Core Deep Learning)
+- Neural Networks
+- Forward & Backpropagation
+- Gradient Descent
+- Loss Functions
+- Activation Functions
+- Optimizers
+- Learning Rate Scheduling
+- Dropout
+- BatchNorm
+- LayerNorm
+- Weight Initialization
+- Vanishing/Exploding Gradients
+- Gradient Clipping
+
+### Tier 2 (Computer Vision + NLP + Transformers)
+- CNN
+- Pooling
+- Padding
+- Stride
+- RNN
+- LSTM
+- GRU
+- Attention
+- Self-Attention
+- Multi-Head Attention
+- Positional Encoding
+- Transformer
+- Decoder-only GPT
+- Embeddings
+- Tokenization
+- Text Generation
+
+### Tier 3 (Project-Oriented Topics)
+- Transfer Learning
+- Fine-tuning
+- LoRA/QLoRA
+- RAG
+- FAISS/ChromaDB
+- Prompt Engineering
+- Perplexity & Evaluation
+- Mixed Precision
+- Quantization
+
+For **AI/ML Fresher interviews**, focus on **Tier 1 + Tier 2**. If your resume includes projects like **MiniGPT** or **Research Paper RAG**, you should also master the relevant **Tier 3** topics, as interviewers commonly ask follow-up questions based on your implementation.
